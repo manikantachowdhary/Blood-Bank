@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bcd.css" type="text/css">
+</head>
+<body>
+    <a href="up.html"> <button type="button"> Back To Home! </button> </a>
+    <div class="donor">
+        <div class="bcmdnr">
+            <h1>BECOME DONOR</h1></br>
+        </div>
+        <div class="dnrdtls">
+            <h2 style="text-align:center">Login</h2></br>
+            <form>
+                <span class="fname">
+                    <b>Full Name : </b><input type="text" placeholder="Name" required>
+                </span>
+                <span class="email">
+                    <b>Email : </b><input type="email" placeholder="Email" required>
+               </span><br>
+               <span class="MblNo">
+             <b>Mobile No. : </b><input type="tel" placeholder="Mbl No." required>
+        </span>
+        <span class="cpwd">
+            <b>Create Password : </b><input type="password" placeholder="password" required>
+        </span>
+    </div>
+    <div class="dinfo">
+        <h2 style="text-align:center">Donor Information </h2></br>
+        <span class="bldgrp">
+            <b>Blood Group : </b><select class="option" name="group">
+                <option disabled="disabled" selected="selected"></option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                
+            </select>
+        </span>
+        <span class="gender">
+            <b>Gender : </b><select class="option" name="group">
+                <option disabled="disabled" selected="selected"></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Others</option>
+</select>
+</span>
+<span class="Ldate">
+    <b>Last Donation Date: </b><input type="date" placeholder="Date">
+</span>
+</div>
+<div class="cinfo">
+        <h2 style="text-align:center">Contact Information </h2></br>
+        <span class="mbl">
+            <b>Show Mbl : </b><select class="option" name="group">
+                <option disabled="disabled" selected="selected"></option>
+                <option value="Yes">YES</option>
+                <option value="No">No</option>
+                </select>
+        </span>
+        <span class="sms">
+            <b>SMS Alert : </b><select class="option" name="group">
+                <option disabled="disabled" selected="selected"></option>
+                <option value="Yes">YES</option>
+                <option value="No">No</option>
+                </select>
+        </span><br>
+        <span class="state">
+            <b>State : </b><input type="text" placeholder="state">
+        </span>
+    <span class="District">
+        <b>District : </b><input type="text" placeholder="district">
+    </span>
+    </div>
+    <button class="submit" type="submit"><b>submit</b></button>
+        <button class="reset" type="reset"><b>reset</b></button>
+            </form>
+    </div>
+</body>
+</html>

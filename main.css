@@ -1,0 +1,320 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(backimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* width: 1200px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+/* header starts here */
+.header{
+    
+    flex-direction: row;
+display: flex;
+height: 70px;
+}
+.logo{
+    flex-basis: 10%;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    background-image: url(logo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0 0 0 / 89%);
+    line-height: 80px;
+    flex-basis: 60%;
+    /* flex-grow: 3; */
+  }
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    margin-right: 100px;
+  
+  }
+  nav ul li{
+   
+    display: inline-block;
+    transition: 0.8 all;
+  }
+  nav ul li :hover{
+    background-color: red;
+  }
+ 
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#fff;
+    padding: 30px;
+  }
+  .lgndtl{
+    flex-basis: 30%;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    background-color: rgba(0 0 0 / 89%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  /* button{
+    margin: 1rem;
+    
+} */
+
+.bt{
+    background-color: var(--background-color);
+    border: 2px solid red;
+    outline: none;
+   padding: 5px 5px;
+   border-radius: 48px;
+   width:150px ;
+   height: 45px;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   cursor: pointer;
+   margin: 15px;
+   position: relative;
+   --background-color: rgba(0 0 0 / 89%);
+   
+   --accent-color:red;
+   
+}
+.bt1,.bt2{
+    color:red;
+}
+.bt.bt1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+     z-index: -1;  
+    background-color: var(--accent-color);
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 48px;
+
+}
+.bt.bt1:hover::before,
+.bt.bt1:focus::before{
+    transform: scaleX(1);
+}
+.bt.bt1{
+    z-index: 1;
+    transition: color 500ms ease-in-out;
+
+}
+.bt.bt1:hover,
+.bt.bt1:focus{
+    color:white;
+}
+.bt.bt2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+     z-index: -1;  
+    background-color: var(--accent-color);
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+
+}
+.bt.bt2:hover::before,
+.bt.bt2:focus::before{
+    transform: scaleX(1);
+}
+.bt.bt2{
+    z-index: 1;
+    transition: color 300ms ease-in-out;
+}
+.bt.bt2:hover,
+.bt.bt2:focus{
+    color:white;
+}
+ 
+/* header ends here */
+/* content starts here */
+
+.content{
+    margin-top: 30px;
+    height:400px ;
+    width: 100%;
+     display: flex; 
+     flex-direction: row;
+     
+     /* background-color:rgba(0 0 0 / 77%); */
+
+}
+.quote{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color:white;
+    
+
+}
+.slider{
+    width:620px;
+    height: 360px;
+    background: url(h2.jpg);
+    animation: slide 20s infinite; 
+     /* margin-left:500px; */
+    
+}
+
+@keyframes slide{
+    14.2%{
+        background: url(c2.jpg);
+    } 
+    28.4%{
+        background: url(h3.jpg);
+    }
+    42.6%{
+        background: url(h4.jpg);
+    }
+    56.5%{
+        background:url(c3.jpg);
+       }
+       71%{
+        background:url(h1.jpg);
+       }
+       85.2%{
+        background:url(h5.jpg);
+       }
+       99.4%{
+        background:url(c1.jpg);
+       }
+    }
+
+
+ 
+/* content ends here */
+/* footer starts here */
+.footer{
+    margin-top: 15px;
+    height: 250px;
+    /* background-color:black; */
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.bdnr{
+    border-radius: 45px;
+    /* transition: width 2s; */
+    background-color:rgba(0 0 0 / 77%); 
+    flex-basis: 22%;
+    margin: 10px;
+    background-image: url(req1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* flex-grow: 1; */
+}
+.btn{
+     border: white; 
+    margin-top: 120px;
+    padding: 15px;
+    width: 170px;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase; 
+    border-radius: 25px;
+     cursor: pointer; 
+    
+     background-size: 200%; 
+    /* opacity: 0.9; */
+}
+.btn1{
+    background-image:linear-gradient(to left,#fa1414,#F9C443,#fa1414);
+     border-radius: 25px; 
+     margin-left: 50px;
+     margin-top: 150px;
+    
+}
+.btn1:hover{
+    background-position: right;
+}
+.finddnr{
+    border-radius: 45px;
+    background-color:rgba(0 0 0 / 77%) ;
+    flex-basis: 22%;
+    margin: 10px;
+    background-image: url(req2.jpg);
+    background-size: cover;
+}
+.btn2{
+    background-image:linear-gradient(to left,#fa1414,#F9C443,#fa1414);
+    border-radius: 25px;
+    color:black;
+    margin-left: 75px;
+     margin-top: 168px;
+}
+.btn2:hover{
+    background-position: right;
+}
+.reqbp{
+    
+    border-radius: 45px;
+    background-color:rgba(0 0 0 / 77%);
+    flex-basis: 22%;
+    margin: 10px;
+    background-image: url(req3.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.btn3{
+    background-image:linear-gradient(to left,#fa1414,#F9C443,#fa1414);
+    border-radius: 25px;
+    color:black;
+    margin-top: 50px;
+    margin-left: 165px;
+    
+
+}
+.btn3:hover{
+    background-position: right;
+}
+.btn4{
+    background-image:linear-gradient(to left,#fa1414,#F9C443,#fa1414);
+    border-radius: 25px;
+    margin-left: 165px;
+    margin-top: 20px;
+    
+
+}
+.btn4:hover{
+    background-position: right;
+}
+
+/* footer ends here */

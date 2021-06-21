@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(reqback2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.donor{
+    width:900px;
+    height: 670px;
+     background-color:rgba(79 3 3 / 58%); 
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right:400px ;
+    margin-bottom: 100px;
+}
+.bcmdnr{
+    width: 900px;
+    background-color: #0f0f0f99;
+    margin: auto;
+    color:#ff3434;
+     padding: 10px 0px 10px 0px; 
+    text-align: center;
+    /* border-radius: 15px 15px 0px 0px; */
+}
+.dnrdtls{
+    color:#00ffffc7;
+    font-size:20px ;
+    margin-top:20px ;  
+}  
+.fname{
+    padding-left:130px ;
+    line-height: 65px;
+    color: #ff9393;
+    font-size: 21px;
+  }
+  .email{
+    padding-left:115px ;
+    color: #ff9393;
+    font-size: 21px;
+} 
+.MblNo{
+    padding-left:130px ;
+    color: #ff9393;
+    font-size: 21px;
+}
+.cpwd{
+    padding-left:60px ;
+    color: #ff9393;
+    font-size: 21px;
+}
+.dinfo{
+    font-size:20px ;
+    margin-top:30px ; 
+    color:#00ffffc7;
+} 
+.bldgrp{
+padding-left: 50px;
+line-height: 50px;
+color: #ff9393;
+font-size: 21px;
+}
+.gender{
+    padding-left: 70px;
+    color: #ff9393;
+    font-size: 21px;
+}
+.Ldate{
+    padding-left: 70px;
+    color: #ff9393;
+    font-size: 21px;
+}
+.cinfo{
+    font-size:20px ;
+    margin-top:30px ; 
+    color:#00ffffc7;
+} 
+.mbl{
+    padding-left:130px ;
+    line-height: 65px;
+    color: #ff9393;
+    font-size: 21px;
+}
+.sms{
+    padding-left:185px ;
+    color: #ff9393;
+    font-size: 21px;
+}
+.state{
+    padding-left:130px ;
+    color: #ff9393;
+    font-size: 21px;
+}
+.District{
+    padding-left:120px ;
+    color: #ff9393;
+    font-size: 21px;
+}
+.submit{
+    margin-left: 280px ;
+    margin-top:25px ;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color:#ff3434;
+    font-size: 15px;
+}
+.reset{
+   margin-left:60px ;
+   padding:10px 22px 10px 22px;
+   border-radius: 10px;
+   background-color:#ff3434;
+   font-size: 15px;
+} 
+.reset:hover{
+   background-color:#ff0000e6;
+ }
+ .submit:hover{
+     background-color:#ff0000e6;
+ }
+input[type=text] {
+    /* width: 50%; */
+    padding: 4px 8px;
+    margin: 8px 0;
+    box-sizing : border-box; 
+    background-color:whitesmoke;
+  } 
+  input[type=tel] {
+    padding: 4px 8px;
+    background-color:whitesmoke;
+}
+input[type=date] {
+    padding: 2px 8px;
+    background-color:whitesmoke;
+}
+input[type=email] {
+    padding: 4px 8px;
+    background-color:whitesmoke;
+}
+.option{
+    width:50px;
+    padding: 4px 8px;
+    background-color:whitesmoke;
+}

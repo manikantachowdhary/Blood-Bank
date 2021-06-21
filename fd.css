@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(reqback3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.fdonor{
+    width:1050px;
+    height: 350px;
+    background-color: #350e0e9c;
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-right:250px ;
+    margin-bottom: 100px; 
+    
+}
+/* #1a19197d */
+.bldnr{
+    width: 1050px;
+    background-color:#ff4646d4;
+    margin: auto;
+    color: darkblue;
+     padding: 10px 0px 10px 0px; 
+    text-align: center;
+    
+}
+.bldgrp{
+        padding-left:83px ;
+        line-height: 200px;
+        font-size: 19.5px;
+        color: #ff9393;
+      }
+      .state{
+        padding-left:83px ;
+        font-size: 19.5px; 
+        color: #ff9393;
+      } 
+      .District{
+          padding-left: 83px;
+          font-size: 19.5px;
+          color: #ff9393;
+      }
+      input[type=text] {
+        /* width: 50%; */
+        padding: 3.5px 8px;
+        margin: 8px 0; 
+        box-sizing : border-box; 
+        
+      } 
+      .option{
+        width:60px;
+        padding: 3.5px 8px;
+    
+    }
+    .submit{
+        margin-left: 500px ;
+        margin-top: 0px !important;
+        margin-bottom: 70px;
+        padding:10px 20px 10px 20px;
+        border-radius: 10px;
+        background-color: #c813130f;
+
+        font-size: 15px;
+   }
+   button[type=submit]{
+       color:  #93faff;
+   }
+    .submit:hover{
+        background-color:#ff0000e6;
+    }
