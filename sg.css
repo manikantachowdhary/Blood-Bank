@@ -14,7 +14,7 @@
     /* width: 1200px; */
    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .footer{
     margin-top: 20px;
